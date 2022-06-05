@@ -1,0 +1,15 @@
+{
+  "name": "xuguoyi.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xuguoyi/xuguoyi.github.io.git",
+  "author": "xuguoyi <339583984@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.46"
+  }
+}
