@@ -8,9 +8,9 @@ actions:
   - text: 开始学习
     link: /guide/
     type: primary
-  # - text: 读过的书
-  #   link: /books/
-  #   type: secondary
+  - text: 学车
+    link: /car/
+    type: car
   # - text: 高频面试题
   #   link: /interview/
   #   type: secondary
