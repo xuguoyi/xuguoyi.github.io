@@ -2,7 +2,7 @@ const path = require("path");
 const { defaultTheme } = require('@vuepress/theme-default')
 module.exports = {
   lang: 'zh-CN',
-  title: '你好， 大兄弟 ！',
+  title: 'Hello, World！',
   description: '这是我的前端学习记录!',
   base: '/',
   open: true,
@@ -39,11 +39,32 @@ module.exports = {
     sidebar: {
       '/guide/': [
         {
-          text: '网络',
+          text: '安全',
           collapsible: true,
           children: [
-            '/guide/a.md',
-            '/guide/b.md',
+            '/guide/safe',
+            '/guide/safe/xss.md',
+            '/guide/safe/csrf.md',
+            '/guide/safe/clickjacking.md'
+          ],
+        },
+        {
+          text: '算法',
+          collapsible: true,
+          children: [
+            '/guide/arithmetic/complexity.md',
+            '/guide/arithmetic/dataStructures.md',
+            '/guide/clickjacking.md'
+          ],
+        },
+        {
+          text: 'CSS',
+          collapsible: true,
+          children: [
+            '/guide/css/flex.md',
+            '/guide/css/position.md',
+            '/guide/css/box.md',
+            '/guide/css/BFC.md'
           ],
         },
       ]

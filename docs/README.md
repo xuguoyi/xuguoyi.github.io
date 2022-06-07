@@ -6,7 +6,7 @@ heroText: 好好学习
 tagline: 为中华民族之崛起而学习!
 actions:
   - text: 开始学习
-    link: /guide/
+    link: /guide/safe
     type: primary
   - text: 学车
     link: /car/
