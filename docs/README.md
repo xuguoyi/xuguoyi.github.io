@@ -9,7 +9,7 @@ actions:
     link: /guide/safe
     type: primary
   - text: 学车
-    link: /car/
+    link: /car/one
     type: car
   # - text: 高频面试题
   #   link: /interview/

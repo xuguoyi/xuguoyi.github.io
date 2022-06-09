@@ -49,12 +49,32 @@ module.exports = {
           ],
         },
         {
+          text: '网络',
+          collapsible: true,
+          children: [
+            '/guide/network/tcp.md',
+            // '/guide/network/xss.md',
+            // '/guide/network/csrf.md',
+            // '/guide/network/clickjacking.md'
+          ],
+        },
+        {
           text: '算法',
           collapsible: true,
           children: [
             '/guide/arithmetic/complexity.md',
             '/guide/arithmetic/dataStructures.md',
             '/guide/clickjacking.md'
+          ],
+        },
+        {
+          text: 'JS',
+          collapsible: true,
+          children: [
+            '/guide/js/dataType.md',
+            '/guide/js/optimization.md',
+            // '/guide/css/box.md',
+            // '/guide/css/BFC.md'
           ],
         },
         {
@@ -65,6 +85,18 @@ module.exports = {
             '/guide/css/position.md',
             '/guide/css/box.md',
             '/guide/css/BFC.md'
+          ],
+        },
+      ],
+      '/car': [
+        {
+          text: '学车',
+          collapsible: true,
+          children: [
+            '/car/one.md',
+            '/car/two.md',
+            '/car/three.md',
+            '/car/four.md'
           ],
         },
       ]
