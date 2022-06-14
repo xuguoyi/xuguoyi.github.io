@@ -87,6 +87,16 @@ module.exports = {
             '/guide/css/BFC.md'
           ],
         },
+        {
+          text: 'React',
+          collapsible: true,
+          children: [
+            '/guide/react/hook.md',
+            '/guide/react/components.md',
+            // '/guide/css/box.md',
+            // '/guide/css/BFC.md'
+          ],
+        },
       ],
       '/car': [
         {
