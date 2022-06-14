@@ -73,7 +73,7 @@ module.exports = {
           children: [
             '/guide/js/dataType.md',
             '/guide/js/optimization.md',
-            // '/guide/css/box.md',
+            '/guide/js/memoryLeak.md',
             // '/guide/css/BFC.md'
           ],
         },
