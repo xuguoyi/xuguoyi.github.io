@@ -74,7 +74,7 @@ module.exports = {
             '/guide/js/dataType.md',
             '/guide/js/optimization.md',
             '/guide/js/memoryLeak.md',
-            // '/guide/css/BFC.md'
+            '/guide/js/prototype.md'
           ],
         },
         {
@@ -93,6 +93,16 @@ module.exports = {
           children: [
             '/guide/react/hook.md',
             '/guide/react/components.md',
+            // '/guide/css/box.md',
+            // '/guide/css/BFC.md'
+          ],
+        },
+        {
+          text: 'ES6',
+          collapsible: true,
+          children: [
+            '/guide/es6/promise.md',
+            // '/guide/react/components.md',
             // '/guide/css/box.md',
             // '/guide/css/BFC.md'
           ],
