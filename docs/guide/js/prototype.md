@@ -46,30 +46,31 @@ var James = new Star('詹姆斯'，37);
 - 实例的__proto__，指向原型对象
 
 ## 关系示例
+![Image text](../../assets/js/1.jpg)
 ```javascript
 // 构造函数
-function Point(x, y) {
-  this.x = x;
-  this.y = y;
+function Star(name, age) {
+  this.name = name;
+  this.age = age;
 }
 
 // 原型
-Point.prototype.toString = function () {
-  return '(' + this.x + ', ' + this.y + ')';
+Star.prototype.play = function () {
+  console.log('我打球很厉害！')
 };
 
 // 实例
-var p = new Point(1, 2);
+var James = new Star(1, 2);
 
-// 构造函数的prototype指向原型
-Point.prototype === Point.prototype // true
 // 实例的__proto__指向原型
-p.__proto__ === Point.prototype // true
+James.__proto__ === Star.prototype // true
 // 原型的constructor指向构造函数
-Point.prototype.constructor === Point // true
+Star.prototype.constructor === Star // true
+// 实例对象可以继承原型对象的constructor属性
+James.constructor === Star // true
 
 // 原型对象里的__proto__ 指向Object.prototype
-Point.prototype.__proto__ === Object.prototype // true
+Star.prototype.__proto__ === Object.prototype // true
 // Object.prototype的__proto__ 最终指向null
 Object.prototype.__proto__ === null // true
 ```
