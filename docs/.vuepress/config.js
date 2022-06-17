@@ -109,6 +109,16 @@ module.exports = {
             // '/guide/css/BFC.md'
           ],
         },
+        {
+          text: '项目相关',
+          collapsible: true,
+          children: [
+            '/guide/project/ssr.md',
+            // '/guide/react/components.md',
+            // '/guide/css/box.md',
+            // '/guide/css/BFC.md'
+          ],
+        },
       ],
       '/car': [
         {
