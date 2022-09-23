@@ -76,7 +76,8 @@ module.exports = {
             '/guide/js/memoryLeak.md',
             '/guide/js/prototype.md',
             '/guide/js/eventLoop.md',
-            '/guide/js/clone.md'
+            '/guide/js/clone.md',
+            '/guide/js/console.md'
           ],
         },
         {
