@@ -45,7 +45,13 @@
 
 ![Image text](../../assets/js/console/9.png)
 
-### 
+## 计数
+### console.count() & console.countReset()
+输出 count() 被调用的次数。此函数接受一个可选参数 label，如果你不设置参数的话，这个参数默认名叫**“default”**。
+
+countReset()会重置计数
+
+![Image text](../../assets/js/console/10.png)
 
 ## 其他
 ### console.table()
