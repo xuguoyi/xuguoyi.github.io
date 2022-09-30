@@ -1,0 +1,1 @@
+const e={key:"v-59daacd6",path:"/guide/safe/",title:"\u6982\u89C8\u56FE",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165456852e4},filePathRelative:"guide/safe/index.md"};export{e as data};

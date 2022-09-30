@@ -1,0 +1,1 @@
+const e={key:"v-01f79af0",path:"/guide/safe/clickjacking.html",title:"\u70B9\u51FB\u52AB\u6301",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:165456852e4},filePathRelative:"guide/safe/clickjacking.md"};export{e as data};

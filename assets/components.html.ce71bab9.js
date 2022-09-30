@@ -1,0 +1,1 @@
+const e={key:"v-2352c587",path:"/guide/react/components.html",title:"\u7C7B\u7EC4\u4EF6\u548C\u51FD\u6570\u7EC4\u4EF6",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u533A\u522B",slug:"\u533A\u522B",children:[]}],git:{updatedTime:1655197022e3},filePathRelative:"guide/react/components.md"};export{e as data};
