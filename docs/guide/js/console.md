@@ -76,7 +76,9 @@ countReset()会重置计数
 
 ### console.clear()
 
-清除控制台，当然我们完全可以使用控制台的清除键
+清除控制台，下图是已清理的状态，当然我们完全可以使用控制台的清除键
+
+![Image text](../../assets/js/console/14.png)
 
 ### console.dir()
 
